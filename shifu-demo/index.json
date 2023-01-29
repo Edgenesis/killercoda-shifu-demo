@@ -1,8 +1,6 @@
 {
   "title": "Shifu 摄像头 Demo",
   "description": "通过 Shifu 连接真实的摄像头，查看当前的摄像头的画面",
-  "difficulty": "Beginner",
-  "time": "5 minutes",
   "details": {
     "steps": [
       {
@@ -37,6 +35,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "kubernetes-kubeadm-1node"
+    "imageid": "kubernetes-kubeadm-2nodes-ubuntu20.04"
   }
 }
