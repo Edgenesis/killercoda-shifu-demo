@@ -4,21 +4,23 @@
   "details": {
     "steps": [
       {
-        "title": "第一步",
+        "title": "准备",
         "text": "step1/step1.md"
       },
       {
-        "title": "第二步",
+        "title": "安装 Shifu",
         "text": "step2/step2.md",
         "verify": "step2/verify.sh"
       },
       {
-        "title": "第三步",
-        "text": "step3.md"
+        "title": "安装Shifu Cloud的Agent",
+        "text": "step3/step3.md",
+        "verify": "step3/verify.sh"
       },
       {
-        "title": "第四步",
-        "text": "step4.md"
+        "title": "使用Shifu Cloud连接摄像头",
+        "text": "step4/step4.md",
+        "verify": "step4/verify.sh"
       },
       {
         "title": "第五步",
