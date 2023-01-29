@@ -14,15 +14,15 @@
 
 密码: `HikVQDRQL` {{ copy }}
 
-![input password](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/shifu-demo/images/inputPassword.png)
+![input password](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/inputPassword.png)
 
 点击`接入并前往添加接口`
 
-![ready](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/shifu-demo/images/ready.png)
+![ready](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/ready.png)
 
 点击`接入设备` 即可将摄像头接入
 
-![interface Device](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/shifu-demo/images/interfaceDevice.png)
+![interface Device](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/interfaceDevice.png)
 
 我们可以使用该命令查看该摄像头的部署情况
 
