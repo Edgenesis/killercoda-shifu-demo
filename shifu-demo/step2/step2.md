@@ -9,5 +9,5 @@ kubectl apply -f https://raw.githubusercontent.com/Edgenesis/shifu/v0.10.0/pkg/k
 通过一下命令可以查看 Shifu 的运行状态
 
 ```bash
-kubectl get po -n shifu-crd-system 
+kubectl get pods -n shifu-crd-system 
 ```{{ exec }}

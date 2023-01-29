@@ -7,4 +7,5 @@
 controlplane $ kubectl get nodes
 NAME           STATUS   ROLES           AGE     VERSION
 controlplane   Ready    control-plane   2d16h   v1.26.0
+node01         Ready    <none>          2d16h   v1.26.0
 ```
