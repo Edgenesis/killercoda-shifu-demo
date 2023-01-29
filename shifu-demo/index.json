@@ -1,15 +1,15 @@
 {
-  "title": "Shifu 摄像头 Demo",
+  "title": "Shifu 摄像头演示",
   "description": "通过 Shifu 连接真实的摄像头，查看当前的摄像头的画面",
   "details": {
     "steps": [
       {
         "title": "第一步",
-        "text": "step1.md"
+        "text": "step1/step1.md"
       },
       {
         "title": "第二步",
-        "text": "step2.md"
+        "text": "step2/step2.md"
       },
       {
         "title": "第三步",
