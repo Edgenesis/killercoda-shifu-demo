@@ -9,18 +9,15 @@
       },
       {
         "title": "安装 Shifu",
-        "text": "step2/step2.md",
-        "verify": "step2/verify.sh"
+        "text": "step2/step2.md"
       },
       {
         "title": "安装Shifu Cloud的Agent",
-        "text": "step3/step3.md",
-        "verify": "step3/verify.sh"
+        "text": "step3/step3.md"
       },
       {
         "title": "使用Shifu Cloud连接摄像头",
-        "text": "step4/step4.md",
-        "verify": "step4/verify.sh"
+        "text": "step4/step4.md"
       },
       {
         "title": "查看实时的视频流",
