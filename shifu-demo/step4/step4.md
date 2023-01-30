@@ -1,8 +1,8 @@
 回到 Shifu Cloud 中，在模版商城中选择 Hikvision
 
-![choose hikvision](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/choosehikvision.png)
+![choose hikvision](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/chooseHikvision.png)
 
-填写`设备名称`和`设备型号`
+这里我们将`设备名称`填写`hikvision`{{ copy }}，`设备型号`填写`Model`{{ copy }}
 
 ![input device basic info](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/inputDeviceBasicInfo.png)
 
@@ -24,7 +24,7 @@
 
 ![interface Device](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/interfaceDevice.png)
 
-我们可以使用该命令查看该摄像头的部署情况
+我们可以使用该命令查看该摄像头的部署情况，设备将在1分钟之内部署到该集群中。
 
 ```bash
 kubectl get pods -n deviceshifu
@@ -35,5 +35,5 @@ kubectl get pods -n deviceshifu
 ```text
 controlplane $ kubectl get pods -n deviceshifu
 NAME                                             READY   STATUS    RESTARTS   AGE
-deviceshifu-camera-deployment-58b64d49d7-gxvnj   2/2     Running   0          21s
+deviceshifu-hikvision-deployment-58b64d49d7-gxvnj   2/2     Running   0          21s
 ```

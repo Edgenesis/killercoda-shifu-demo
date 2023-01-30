@@ -23,8 +23,8 @@
         "verify": "step4/verify.sh"
       },
       {
-        "title": "第五步",
-        "text": "step5.md"
+        "title": "查看实时的视频流",
+        "text": "step5/step5.md"
       }
     ],
     "intro": {

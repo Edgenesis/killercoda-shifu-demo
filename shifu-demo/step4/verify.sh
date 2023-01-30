@@ -1,10 +1,8 @@
 #!/bin/bash
 
-kubectl 
-
-if $(kubectl rollout status deployment/shifu-deployer -n shifu-agent -w=false | grep -q "successfully rolled out"); then
-  echo "Deployment shifu-deployer  is ready"
+if $(kubectl rollout status deployment/deviceshifu-hikvision-deployment -n deviceshifu -w=false | grep -q "successfully rolled out"); then
+  echo "Deployment deviceshifu-hikvision-deployment is ready"
   exit 1
 else
-  echo "Deployment shifu-deployer  is not ready"
+  echo "Deployment deviceshifu-hikvision-deployment is not ready"
 fi
