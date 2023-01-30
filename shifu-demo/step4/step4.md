@@ -2,7 +2,7 @@
 
 ![choose hikvision](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/chooseHikvision.png)
 
-这里我们将`设备名称`填写`hikvision`{{ copy }}，`设备型号`填写`Model`{{ copy }}
+这里我们将`设备名称`{{}} 填写`hikvision`{{ copy }}，`设备型号`{{}} 填写`Model`{{ copy }}
 
 ![input device basic info](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/inputDeviceBasicInfo.png)
 
@@ -16,11 +16,11 @@
 
 ![input password](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/inputPassword.png)
 
-点击`接入并前往添加接口`
+点击`接入并前往添加接口`{{}}
 
 ![ready](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/ready.png)
 
-点击`接入设备` 即可将摄像头接入
+点击`接入设备`{{}} 即可将摄像头接入
 
 ![interface Device](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/interfaceDevice.png)
 
@@ -30,7 +30,7 @@
 kubectl get pods -n deviceshifu
 ```{{ exec }}
 
-当该 pod 的 Ready 为`2/2` Status 为`Running`时则表示部署成功
+当该 pod 的 Ready 为`2/2`{{}} Status 为`Running`{{}}时则表示部署成功
 
 ```text
 controlplane $ kubectl get pods -n deviceshifu
