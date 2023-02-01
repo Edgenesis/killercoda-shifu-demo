@@ -5,14 +5,14 @@
 
 注册登陆 Shifu Cloud
 
-![Shifu Cloud Login](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/ShifuCloudLogin.png)
+![Shifu Cloud Login](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/ShifuCloudLogin.png)
 
 点击 工作区 - Agent管理 - 添加Agent - 输入任意Agent名称 - 点击提交 
 
-![Add Agent](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/AddAgent.png)
+![Add Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/AddAgent.png)
 
 点击复制命令，并在该命令行下执行该命令以部署Shifu Cloud的Agent。
-![Deploy Agent](https://raw.githubusercontent.com/leepala/killercoda-shifu-demo/main/images/DeployAgent.png)
+![Deploy Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/DeployAgent.png)
 
 查看 Agent 的运行状况
 ```bash
