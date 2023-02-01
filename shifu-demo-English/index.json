@@ -1,29 +1,29 @@
 {
-  "title": "Shifu 摄像头演示",
-  "description": "通过 Shifu 连接真实的摄像头，查看当前的摄像头的画面",
+  "title": "Shifu Camera Demo",
+  "description": "Connect to a real camera via Shifu and view the current camera feed",
   "details": {
     "steps": [
       {
-        "title": "准备",
+        "title": "Preparation",
         "text": "step1/step1.md"
       },
       {
-        "title": "安装 Shifu",
+        "title": "Install Shifu",
         "text": "step2/step2.md",
         "verify": "step2/verify.sh"
       },
       {
-        "title": "安装Shifu Cloud的Agent",
+        "title": "Install Shifu Cloud Agent",
         "text": "step3/step3.md",
         "verify": "step3/verify.sh"
       },
       {
-        "title": "使用Shifu Cloud连接摄像头",
+        "title": "Use Shifu Cloud to connect a camera",
         "text": "step4/step4.md",
         "verify": "step4/verify.sh"
       },
       {
-        "title": "查看实时的视频流",
+        "title": "Check real-time video stream",
         "text": "step5/step5.md"
       }
     ],
