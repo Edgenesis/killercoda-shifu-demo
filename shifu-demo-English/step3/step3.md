@@ -25,4 +25,4 @@ NAME                              READY   STATUS    RESTARTS   AGE
 shifu-deployer-5db84bc9b7-w5rps   1/1     Running   0          14s
 ```
 
-🔔If you have any problem during the demo, please ask our developer 👷🏽[@Leea Mr](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.
+🔔If you have any problem during the demo, please ask our developer 👷🏽[@Steven Lee](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.

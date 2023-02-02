@@ -19,4 +19,4 @@ controlplane $ kubectl get pods -n shifu-crd-system
 NAME                                           READY   STATUS    RESTARTS   AGE
 shifu-crd-controller-manager-98bb47fc9-828dl   2/2     Running   0          22s
 ```
-🔔If you have any problem during the demo, please ask our developer 👷🏽[@Leea Mr](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.
+🔔If you have any problem during the demo, please ask our developer 👷🏽[@Steven Lee](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.
