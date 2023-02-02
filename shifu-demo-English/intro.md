@@ -9,4 +9,4 @@ Shifu Cloud provides one-click device connection experience and production-grade
 
 ![Shifu Cloud Architecture](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/Shifu%20Cloud%20Architecture.png)
 
-🔔If you have any problem during the demo, please ask our developer 👷🏽[@Steven Lee](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.
+🔔If you have any problem during the demo, please ask our developer 👷🏽[@Steven Lee(@slack)](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback(@slack)](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.
