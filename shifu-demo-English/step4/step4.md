@@ -1,36 +1,40 @@
-Back in Shifu Cloud, select Hikvision from the Device Template Store
+1. Now go back to Shifu Cloud, select 📸**Hikvision** from the Device Template Store.
 
-![choose hikvision](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/chooseHikvision.png)
+🌃Here we have prepared **a live, steet-facing camera capturing the landscape of Beijing, China.**
 
-Here we fill `device name`{{}} with `hikvision`{{ copy }}, `device model`{{}} with `Model`{{ copy }}
+![choose hikvision](https://github.com/Edgenesis/killercoda-shifu-demo/blob/main/images/template-en.png)
 
-![input device basic info](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/inputDeviceBasicInfo.png)
+(❗️Note that these informations must be identical, you shouldn't fill in a random information❗️You can click the information itself to copy it and then paste it in Shifu Cloud)
 
-Fill in the device IP address, username and password, if you do not have a device you can use our test account.
+2. Here we fill `device name`{{}} with `hikvision`{{ copy }}, `device model`{{}} with `Model`{{ copy }}
 
-Device IP address: `bj-hikcamera-01.saifai.cn:40554`{{ copy }}
+![input device basic info](https://github.com/Edgenesis/killercoda-shifu-demo/blob/main/images/information1-en.png)
 
-Username: `admin`{{ copy }}
+3. Now fill in the information of the camera.
+   
+- Device IP address: `bj-hikcamera-01.saifai.cn:40554`{{ copy }}
 
-Password: `HikVQDRQL`{{ copy }}
+- Username: `admin`{{ copy }}
 
-![input password](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/inputPassword.png)
+- Password: `HikVQDRQL`{{ copy }}
 
-Click`Go ahead and add APIs`{{}} 
+![input password](https://github.com/Edgenesis/killercoda-shifu-demo/blob/main/images/information2-en.png)
 
-![ready](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/ready.png)
+4. 👇🏼Click`Go ahead and add APIs`{{}} 
 
-Click`Integrate device`{{}} 
+![ready](https://github.com/Edgenesis/killercoda-shifu-demo/blob/main/images/goahead-en.png)
 
-![interface Device](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/interfaceDevice.png)
+5. 👇🏼Click`Integrate device`{{}} 
 
-Use this command to see the deployment of this camera and the device will be deployed to this cluster in less than 1 minute.
+![interface Device](https://github.com/Edgenesis/killercoda-shifu-demo/blob/main/images/integrate-en.png)
+
+6. 👇🏼Use this command to see the deployment of this camera.(The device will be deployed to this cluster in less than 1 minute).
 
 ```bash
 kubectl get pods -n deviceshifu
 ```{{ exec }}
 
-Deployment is successful when the pod's Ready is `2/2`{{}} Status is `Running`{{}}
+7. 👀Deployment is successful when the pod's **Ready is `2/2`**{{}} **Status is `Running`**{{}}
 
 
 ```text
@@ -38,3 +42,5 @@ controlplane $ kubectl get pods -n deviceshifu
 NAME                                             READY   STATUS    RESTARTS   AGE
 deviceshifu-hikvision-deployment-58b64d49d7-gxvnj   2/2     Running   0          21s
 ```
+
+🔔If you have any problem during the demo, please ask our developer 👷🏽[@Leea Mr](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.

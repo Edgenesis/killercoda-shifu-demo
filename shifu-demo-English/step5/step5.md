@@ -1,15 +1,15 @@
-## View video stream
-
-Use the following command to expose deviceShifu's services so that we can see the camera feed in the browser.
+1. Use the following command to expose deviceShifu's services so that we can see the camera feed in the browser.
 
 ```bash
 kubectl port-forward svc/deviceshifu-hikvision-service -n deviceshifu 3000:80 --address=0.0.0.0
 ```{{ exec }}
 
-At this point we can open [the interface that the platform is forwarding for us]({{TRAFFIC_HOST1_3000}}) and we need to add the command after the URL we are accessing to operate on the device.
+2. 😀At this point you can open 📷[capture]({{TRAFFIC_HOST1_3000}}/capture)📷 to see the current monitoring photos！
 
-At this point you can open [capture]({{TRAFFIC_HOST1_3000}}/capture) to see the current monitoring photos
+Now you can capture a live moment from a street-facing camera in Beijing, China.
 
-You can also open [stream]({{TRAFFIC_HOST1_3000}}/stream) to view the live video stream (we do not recommend you to do this, as the platform may not be able to view the video stream smoothly due to the low configuration of the machine)
+3. 💗**Your Feedback Matters**💗
 
-If there is a lag during viewing, you can `{{exec interrupt}} the running port-forward command and run it again.
+We value your feedback on this demo or Shifu Cloud very much and would love to hear about your opinion. Share your thoughts at [#feedback](https://shifuproj.slack.com/archives/C04N5AJJL8Y) or simply have a chat with our founder [@Yongli](https://shifuproj.slack.com/archives/D04MMBWKUUR] and you will be eligible for a 💵$100 credit for Shifu Cloud. Plus, you'll receive an extra 💵$20 bonus credit for referring new users!
+
+

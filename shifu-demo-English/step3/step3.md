@@ -1,27 +1,27 @@
 
-## Go to Shifu Cloud
+**Now you can go to [https://shifu.cloud](https://shifu.cloud) and try to connect a camera!**
 
-[https://shifu.cloud](https://shifu.cloud)
+1. ☁️Sign up for Shifu Cloud
 
-Sign up for Shifu Cloud
+![Shifu Cloud Login](https://github.com/Edgenesis/killercoda-shifu-demo/blob/main/images/login-en.png)
 
-![Shifu Cloud Login](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/ShifuCloudLogin.png)
+2. Click WorkArea - AgentManagement - Add Agent - Give a name to the agent - Submit
 
-Click WorkArea - AgentManagement - Add Agent - Name the agent - Submit
+![Add Agent](https://github.com/Edgenesis/killercoda-shifu-demo/blob/main/images/agent-en.png)
+![Name the Agent](https://github.com/Edgenesis/killercoda-shifu-demo/blob/main/images/agentname-en.png)
+3. Click **Copy Command** and paste it **here** to deploy the agent for Shifu Cloud.
+![Deploy Agent](https://github.com/Edgenesis/killercoda-shifu-demo/blob/main/images/deployagent-en.png)
 
-![Add Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/AddAgent.png)
-
-Click Copy Command and paste it here to deploy the Agent for Shifu Cloud.
-![Deploy Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/DeployAgent.png)
-
-Check the status
+4. 👇🏼Check the status of your agent.(It could take 20 seconds.)
 ```bash
 kubectl get pods -n shifu-agent
 ```{{ exec }}
 
-The following result indicates that Shifu is up and running.
+5. 👀The following result indicates that your agent is up and running.
 ```
 controlplane $ kubectl get pods -n shifu-agent -w
 NAME                              READY   STATUS    RESTARTS   AGE
 shifu-deployer-5db84bc9b7-w5rps   1/1     Running   0          14s
 ```
+
+🔔If you have any problem during the demo, please ask our developer 👷🏽[@Leea Mr](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.

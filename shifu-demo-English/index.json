@@ -1,29 +1,29 @@
 {
-  "title": "Shifu Camera Demo",
-  "description": "Connect to a real camera via Shifu and view the current camera feed",
+  "title": "Shifu Cloud Camera Demo(en)",
+  "description": "Connect to a real camera using Shifu. View the current camera feed.",
   "details": {
     "steps": [
       {
-        "title": "Preparation",
+        "title": "🔩Preparation🔩",
         "text": "step1/step1.md"
       },
       {
-        "title": "Install Shifu",
+        "title": "🪛Install Shifu🪛",
         "text": "step2/step2.md",
         "verify": "step2/verify.sh"
       },
       {
-        "title": "Install Shifu Cloud Agent",
+        "title": "🐼Install Shifu Cloud Agent🐼",
         "text": "step3/step3.md",
         "verify": "step3/verify.sh"
       },
       {
-        "title": "Use Shifu Cloud to connect a camera",
+        "title": "📸Use Shifu Cloud to connect a camera📸",
         "text": "step4/step4.md",
         "verify": "step4/verify.sh"
       },
       {
-        "title": "Check real-time video stream",
+        "title": "📽Check real-time video stream📽",
         "text": "step5/step5.md"
       }
     ],
