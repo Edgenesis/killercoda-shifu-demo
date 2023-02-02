@@ -8,6 +8,10 @@
 👉Click WorkArea - AgentManagement - Add Agent - Give a name to the agent - Submit
 
 ![Add Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/agent-en.jpg)
+
+</br>
+</br>
+
 ![Name the Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/agentname-en.jpg)
 
 👉Click **Copy Command** and paste it **here** to deploy the agent for Shifu Cloud.
