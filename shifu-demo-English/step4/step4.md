@@ -2,13 +2,13 @@
 
 🌃Here we have prepared **a live, steet-facing camera capturing the landscape of Beijing, China.**
 
-![choose hikvision](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/template-en.png)
+![choose hikvision](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/template-en.jpg)
 
 (❗️Note that these informations must be identical, you shouldn't fill in a random information❗️You can click the information itself to copy it and then paste it in Shifu Cloud)
 
 ✍️Here we fill `device name`{{}} with `hikvision`{{ copy }}, `device model`{{}} with `Model`{{ copy }}
 
-![input device basic info](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/information1-en.png)
+![input device basic info](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/information1-en.jpg)
 
 ✍️Now fill in the information of the camera.
    
@@ -18,15 +18,14 @@
 
 - Password: `HikVQDRQL`{{ copy }}
 
-![input password](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/information2-en.png)
+![input password](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/information2-en.jpg)
 
 👇🏼Click`Go ahead and add APIs`{{}} 
 
-![ready](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/goahead-en.png)
-
+![ready](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/goahead-en.jpg)
 👇🏼Click`Integrate device`{{}} 
 
-![interface Device](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/integrate-en.png)
+![interface Device](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/integrate-en.jpg)
 
 👇🏼Use this command to see the deployment of this camera.(The device will be deployed to this cluster in less than 1 minute).
 
