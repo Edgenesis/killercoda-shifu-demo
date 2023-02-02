@@ -1,18 +1,19 @@
 
 **Now you can go to [https://shifu.cloud](https://shifu.cloud) and try to connect a camera!**
 
-1. ☁️Sign up for Shifu Cloud
+☁️Sign up for Shifu Cloud
 
 ![Shifu Cloud Login](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/login-en.png)
 
-2. Click WorkArea - AgentManagement - Add Agent - Give a name to the agent - Submit
+👉Click WorkArea - AgentManagement - Add Agent - Give a name to the agent - Submit
 
 ![Add Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/agent-en.png)
 ![Name the Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/agentname-en.png)
-3. Click **Copy Command** and paste it **here** to deploy the agent for Shifu Cloud.
+
+👉Click **Copy Command** and paste it **here** to deploy the agent for Shifu Cloud.
 ![Deploy Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/deployagent-en.png)
 
-4. 👇🏼Check the status of your agent.(It could take ⏰20 seconds⏰.)
+👇🏼Check the status of your agent. (It could take ⏰20 seconds⏰.)
 ```bash
 kubectl get pods -n shifu-agent
 ```{{ exec }}

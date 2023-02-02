@@ -6,7 +6,7 @@
 kubectl apply -f https://raw.githubusercontent.com/Edgenesis/shifu/v0.10.0/pkg/k8s/crd/install/shifu_install.yml
 ```{{ exec }}
 
-👇🏼Use the following command to check the status of Shifu(It may take up to ⏰20 seconds⏰ to start).
+👇🏼Use the following command to check the status of Shifu. (It may take up to ⏰20 seconds⏰ to start)
 
 ```bash
 kubectl get pods -n shifu-crd-system 
