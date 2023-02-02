@@ -12,12 +12,12 @@
 3. Click **Copy Command** and paste it **here** to deploy the agent for Shifu Cloud.
 ![Deploy Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/deployagent-en.png)
 
-4. 👇🏼Check the status of your agent.(It could take 20 seconds.)
+4. 👇🏼Check the status of your agent.(It could take ⏰20 seconds⏰.)
 ```bash
 kubectl get pods -n shifu-agent
 ```{{ exec }}
 
-5. 👀The following result indicates that your agent is up and running.
+👀The following result indicates that your agent is up and running.
 ```
 controlplane $ kubectl get pods -n shifu-agent -w
 NAME                              READY   STATUS    RESTARTS   AGE

@@ -34,7 +34,7 @@
 kubectl get pods -n deviceshifu
 ```{{ exec }}
 
-7. 👀Deployment is successful when the pod's **Ready is `2/2`**{{}} **Status is `Running`**{{}}
+👀Deployment is successful when the pod's Ready is `2/2`{{}} Status is `Running`{{}}
 
 
 ```text
