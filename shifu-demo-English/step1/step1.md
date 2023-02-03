@@ -3,7 +3,7 @@
 
 🧑🏼‍💻We've configured a Kubernetes cluster for you to try out directly.
 
-🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 <br/>
 Use this command `kubectl get nodes`{{execute}} to check the status of the nodes in the current Kuberenetes cluster.
 <br/>
