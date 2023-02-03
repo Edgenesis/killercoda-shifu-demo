@@ -1,6 +1,6 @@
 🧑‍💻Now go back to Shifu Cloud, select 📸**Hikvision** from the Device Template Store.
 
-🌃Here we have prepared **a live, steet-facing camera capturing the landscape of Beijing, China.**
+🌃Here we have prepared **a live, street-facing camera capturing the landscape of Beijing, China.**
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 <br/>
 

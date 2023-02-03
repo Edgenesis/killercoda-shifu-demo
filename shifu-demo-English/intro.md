@@ -3,7 +3,7 @@
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 <br/>
 
-In this demo, we have prepared for you **a live, steet-facing camera capturing the landscape of Beijing, China**📸🌇
+In this demo, we have prepared for you **a live, street-facing camera capturing the landscape of Beijing, China**📸🌇
 
 You can follow the steps to try and connect the camera by yourself very easily.
 <br/>
