@@ -9,6 +9,7 @@ You can follow the steps to try and connect the camera by yourself very easily.
 <br/>
 
 **Start NOW!!**
+Don't refresh the website during the demo, or you'll lose all your previous data.
 <br/>
 
 ——————————————————————————————————————————————————————————————————————————————————
