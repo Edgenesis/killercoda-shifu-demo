@@ -1,10 +1,11 @@
+
 🌟In order to use Shifu Cloud, you'll first need a **Kubernetes cluster** on your computer.
 
 🧑🏼‍💻We've configured a Kubernetes cluster for you to try out directly.
 
 Use this command `kubectl get nodes`{{execute}} to check the status of the nodes in the current Kuberenetes cluster.
 
-We can see that the current Kubernetes cluster contains one node-**controlplane**, and the status is **Ready**.
+We can see that the current Kubernetes cluster contains one `node`-`controlplane`, and the `status` is `Ready`.
 ```
 controlplane $ kubectl get nodes
 NAME           STATUS   ROLES           AGE     VERSION

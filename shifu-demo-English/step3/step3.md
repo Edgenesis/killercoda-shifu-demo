@@ -3,7 +3,7 @@
 
 ☁️Sign up for Shifu Cloud
 
-![Shifu Cloud Login](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/login-en.jpg)
+![Shifu Cloud Login](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/login-en.png)
 
 👉Click WorkArea - AgentManagement - Add Agent - Give a name to the agent - Submit
 
@@ -22,7 +22,7 @@
 kubectl get pods -n shifu-agent
 ```{{ exec }}
 
-👀The following result indicates that your agent is up and running.
+👀When 'READY' is '1/1', 'STATUS' is 'Running', your agent is up and running.
 ```
 controlplane $ kubectl get pods -n shifu-agent -w
 NAME                              READY   STATUS    RESTARTS   AGE

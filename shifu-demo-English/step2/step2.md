@@ -1,5 +1,3 @@
-
-
 👇🏼Use one click to install ***Shifu*** into our Kubernetes cluster.
 
 ```bash
@@ -12,7 +10,7 @@ kubectl apply -f https://raw.githubusercontent.com/Edgenesis/shifu/v0.10.0/pkg/k
 kubectl get pods -n shifu-crd-system 
 ```{{ exec }}
 
-👀If you see the following command, then Shifu has been successfully installed.
+👀When 'READY' is '2/2', 'STATUS' is 'Running', then Shifu has been successfully installed.
 
 ```text
 controlplane $ kubectl get pods -n shifu-crd-system 
