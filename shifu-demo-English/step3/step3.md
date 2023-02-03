@@ -1,5 +1,5 @@
 
-**Now you can go to [https://shifu.cloud](https://shifu.cloud) and try to connect a camera!**
+**Now you can go to [https://cloud.shifu.dev](https://cloud.shifu.dev) and try to connect a camera!**
 
 ☁️Sign up for Shifu Cloud
 

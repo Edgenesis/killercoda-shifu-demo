@@ -1,12 +1,7 @@
-# Virtualize your IoT device into a Kubernetes pod
+# Three minutes to connect to a camera
 
-Shifu Cloud provides one-click device connection experience and production-grade device control capability for lightweight k8s distributions (k3s and microK8s etc.)
+We have prepared **a live, steet-facing camera capturing the landscape of Beijing, China.**
 
-### 🔧 Fully Supported Protocols and Apps (and more!!!)
-- Public Protocols: HTTP, OPCUA, Socket, MQTT, ADS, BACnet, CBus, Eip, Knx, ModbusAscii, ModbusRTU, ModbusTCP
-- Proprietary Protocols: Siemens S7, HikVision, DaHua
-- 3rd Party APPs: TDengine, Prometheus, Grafana, Kubernetes Dashboard
-
-![Shifu Cloud Architecture](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/Shifu%20Cloud%20Architecture.png)
+Try it NOW!!
 
 🔔If you have any problem during the demo, please ask our developer 👷🏽[@Steven Lee(@slack)](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback(@slack)](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.
