@@ -1,4 +1,4 @@
-👇🏼One click to install ***Shifu*** into our Kubernetes cluster.
+👇🏼**One click** to install ***Shifu*** into our Kubernetes cluster.
 
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/Edgenesis/shifu/v0.10.0/pkg/k8s/crd/install/shifu_install.yml
