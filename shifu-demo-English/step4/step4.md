@@ -1,6 +1,7 @@
 🧑‍💻Now go back to Shifu Cloud, select 📸**Hikvision** from the Device Template Store.
 
 🌃Here we have prepared **a live, steet-facing camera capturing the landscape of Beijing, China.**
+🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 
 ![choose hikvision](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/template-en.jpg)
 
@@ -32,7 +33,7 @@
 ```bash
 kubectl get pods -n deviceshifu
 ```{{ exec }}
-
+🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 👀When `READY` is `2/2`, `STATUS` is `Running`, the deployment is successfull.
 
 
@@ -41,5 +42,5 @@ controlplane $ kubectl get pods -n deviceshifu
 NAME                                             READY   STATUS    RESTARTS   AGE
 deviceshifu-hikvision-deployment-58b64d49d7-gxvnj   2/2     Running   0          21s
 ```
-
+🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 🔔If you have any problem during the demo, please ask our developer 👷🏽[@Steven Lee(@slack)](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback(@slack)](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.
