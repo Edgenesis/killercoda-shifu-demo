@@ -1,7 +1,7 @@
 
 ## Now you can go to [Shifu Cloud](https://cloud.shifu.dev) and try to connect a camera!
 
-🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 <br/>
 ☁️Sign up for Shifu Cloud
 
@@ -26,7 +26,7 @@
 ```bash
 kubectl get pods -n shifu-agent
 ```{{ exec }}
-🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 <br/>
 
 👀When `READY` is `1/1`, `STATUS` is `Running`, your agent is up and running.
@@ -35,6 +35,6 @@ controlplane $ kubectl get pods -n shifu-agent -w
 NAME                              READY   STATUS    RESTARTS   AGE
 shifu-deployer-5db84bc9b7-w5rps   1/1     Running   0          14s
 ```
-🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 
 🔔If you have any problem during the demo, please ask our developer 👷🏽[@Steven Lee(@slack)](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback(@slack)](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.
