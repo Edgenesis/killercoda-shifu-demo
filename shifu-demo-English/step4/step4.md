@@ -25,7 +25,7 @@
 
 ![interface Device](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/integrate-en.jpg)
 
-👉Check the deployment of this camera.(The device will be deployed to this cluster in less than 1 minute).
+👉Check the deployment status of this camera.(The device will be deployed to this cluster in less than 1 minute).
 
 ```bash
 kubectl get pods -n deviceshifu

@@ -22,7 +22,7 @@
 ![Deploy Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/deployagent-en.jpg)
 
 
-👉Check the status of your agent. (It could take ⏰20 seconds⏰.)
+👉Check the status of your agent. (It might take ⏰20 seconds⏰.)
 ```bash
 kubectl get pods -n shifu-agent
 ```{{ exec }}
