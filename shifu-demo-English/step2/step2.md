@@ -12,6 +12,7 @@ kubectl get pods -n shifu-crd-system
 
 
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+<br/>
 
 👀When `READY` is `2/2`, `STATUS` is `Running`, then Shifu has been successfully installed.
 
@@ -22,4 +23,6 @@ shifu-crd-controller-manager-98bb47fc9-828dl   2/2     Running   0          22s
 ```
 
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+<br/>
+
 🔔If you have any problem during the demo, please ask our developer 👷🏽[@Steven Lee(@slack)](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback(@slack)](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.

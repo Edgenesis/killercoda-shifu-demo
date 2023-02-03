@@ -9,8 +9,13 @@ kubectl port-forward svc/deviceshifu-hikvision-service -n deviceshifu 3000:80 --
 Now you can capture a live moment from a street-facing camera in Beijing, China.
 
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+<br/>
+
 💗Your Feedback Matters
+<br/>
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+<br/>
+
 We value your feedback on this demo or Shifu Cloud very much and would love to hear about your opinion. Share your thoughts at [#feedback(@slack)](https://shifuproj.slack.com/archives/C04N5AJJL8Y) or simply have a chat with our founder [@Yongli(@slack)](https://shifuproj.slack.com/archives/D04MMBWKUUR) and you will be eligible for a 💵$100 credit for Shifu Cloud. Plus, you'll receive an extra 💵$20 bonus credit for referring new users!
 
 
