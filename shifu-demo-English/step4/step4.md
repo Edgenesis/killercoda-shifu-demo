@@ -12,11 +12,11 @@
 
 ✍️Now fill in the information of the camera.
    
-- Device IP address: `bj-hikcamera-01.saifai.cn:40554`{{ copy }}
+- Device IP address: `bj-hikcamera-01.saifai.cn:41554/ `{{ copy }}
 
-- Username: `admin`{{ copy }}
+- Username: `guest`{{ copy }}
 
-- Password: `HikVQDRQL`{{ copy }}
+- Password: `HelloShifu`{{ copy }}
 
 ![input password](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/information2-en.jpg)
 
