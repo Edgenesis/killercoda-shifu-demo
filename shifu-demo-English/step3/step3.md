@@ -2,7 +2,6 @@
 👉Go to [Shifu Cloud](https://cloud.shifu.dev) and try to connect a camera!
 
 
-<br/>
 👉Sign up for Shifu Cloud
 
 ![Shifu Cloud Login](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/login-en.png)
@@ -12,7 +11,6 @@
 
 ![Add Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/agent-en.jpg)
 
-<br/>
 <br/>
 
 ![Name the Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/agentname-en.jpg)

@@ -6,7 +6,7 @@ kubectl port-forward svc/deviceshifu-hikvision-service -n deviceshifu 3000:80 --
 
 👉Now open 📷[capture]({{TRAFFIC_HOST1_3000}}/capture)📷 to see the current monitoring photos！
 
-Now you can capture a live moment from a street-facing camera in Beijing, China.
+✔️Now you can capture a live moment from a street-facing camera in Beijing, China.
 
 ——————————————————————————————————————————————————————————————————————————————————
 <br/>
