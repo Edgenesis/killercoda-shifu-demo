@@ -22,7 +22,7 @@
 kubectl get pods -n shifu-agent
 ```{{ exec }}
 
-👀When 'READY' is '1/1', 'STATUS' is 'Running', your agent is up and running.
+👀When `READY` is `1/1`, `STATUS` is `Running`, your agent is up and running.
 ```
 controlplane $ kubectl get pods -n shifu-agent -w
 NAME                              READY   STATUS    RESTARTS   AGE

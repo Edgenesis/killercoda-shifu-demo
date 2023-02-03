@@ -10,7 +10,7 @@ kubectl apply -f https://raw.githubusercontent.com/Edgenesis/shifu/v0.10.0/pkg/k
 kubectl get pods -n shifu-crd-system 
 ```{{ exec }}
 
-👀When 'READY' is '2/2', 'STATUS' is 'Running', then Shifu has been successfully installed.
+👀When `READY` is `2/2`, `STATUS` is `Running`, then Shifu has been successfully installed.
 
 ```text
 controlplane $ kubectl get pods -n shifu-crd-system 
