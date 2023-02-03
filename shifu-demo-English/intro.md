@@ -3,10 +3,7 @@
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 </br>
 
-We have prepared **a live, steet-facing camera capturing the landscape of Beijing, China**
-
-</br>
-📸🌇
+We have prepared **a live, steet-facing camera capturing the landscape of Beijing, China**📸🌇
 </br>
 
 **Start NOW!!**
