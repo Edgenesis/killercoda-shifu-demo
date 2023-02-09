@@ -8,7 +8,7 @@ We've configured a Kubernetes cluster for you to try out directly.
 👉Click `kubectl get nodes`{{execute}} to check the nodes in the Kuberenetes cluster.
 <br/>
 
-✔️The cluster should contain one `node`-`controlplane`, and the `status` should be `Ready`.
+✔️The cluster should contain two nodes, `node`-`controlplane` and `node01`. Those nodes' `status` should be `Ready`.
 ```
 controlplane $ kubectl get nodes
 NAME           STATUS   ROLES           AGE     VERSION
