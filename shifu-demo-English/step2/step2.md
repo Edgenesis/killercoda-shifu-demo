@@ -13,7 +13,7 @@ kubectl get pods -n shifu-crd-system
 
 <br/>
 
-✔️When `READY` is `2/2`, `STATUS` is `Running`, then Shifu has been successfully installed.
+✔️When `READY` is `2/2` and `STATUS` is `Running`, then Shifu has been successfully installed.
 
 ```text
 controlplane $ kubectl get pods -n shifu-crd-system 
