@@ -10,9 +10,9 @@
 
 设备IP地址: `bj-hikcamera-01.saifai.cn:40554`{{ copy }}
 
-用户名: `admin`{{ copy }}
+用户名: `guest`{{ copy }}
 
-密码: `HikVQDRQL`{{ copy }}
+密码: `HelloShifu`{{ copy }}
 
 ![input password](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/inputPassword.png)
 
