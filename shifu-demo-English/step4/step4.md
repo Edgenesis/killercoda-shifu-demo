@@ -43,7 +43,6 @@ deviceshifu-hikvision-deployment-58b64d49d7-gxvnj   2/2     Running   0         
 ```
 
 Use the following command to enable killer_coda:
-部署成功之后用下面的指令启用killer_coda
 ```bash
 kubectl set env deployment/deviceshifu-hikvision-deployment camera-python KILLER_CODA=true
 ```
