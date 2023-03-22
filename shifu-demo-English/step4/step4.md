@@ -41,6 +41,11 @@ controlplane $ kubectl get pods -n deviceshifu
 NAME                                             READY   STATUS    RESTARTS   AGE
 deviceshifu-hikvision-deployment-58b64d49d7-gxvnj   2/2     Running   0          21s
 ```
+
+Use the following command to enable killer_coda:
+```bash
+kubectl set env deployment/deviceshifu-hikvision-deployment camera-python KILLER_CODA=true
+```
 ————————————————————————————————————————————————————————————————————————————————
 <br/>
 
