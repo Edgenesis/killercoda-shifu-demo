@@ -1,4 +1,4 @@
-## 安装 ***Shifu***
+## 步骤2：安装 ***Shifu***
 
 我们只需要一条命令就可以把 ***Shifu*** 安装到我们的 Kubernetes 集群中。
 
@@ -19,3 +19,5 @@ controlplane $ kubectl get pods -n shifu-crd-system
 NAME                                           READY   STATUS    RESTARTS   AGE
 shifu-crd-controller-manager-98bb47fc9-828dl   2/2     Running   0          22s
 ```
+
+

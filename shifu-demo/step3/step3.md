@@ -1,28 +1,9 @@
+## 步骤3：部署 DeviceShifu
 
-## 点击链接前往 Shifu Cloud 的官网
+要部署 DeviceShifu，您可以从提供的 URL 应用 YAML 配置文件。在终端中运行以下命令：
 
-[https://shifu.cloud](https://shifu.cloud)
-
-注册登陆 Shifu Cloud
-
-![Shifu Cloud Login](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/ShifuCloudLogin.png)
-
-点击 工作区 - Agent管理 - 添加Agent - 输入任意Agent名称 - 点击提交 
-
-![Add Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/AddAgent.png)
-
-点击复制命令，并在该命令行下执行该命令以部署Shifu Cloud的Agent。
-![Deploy Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/DeployAgent.png)
-
-查看 Agent 的运行状况
 ```bash
-kubectl get pods -n shifu-agent
-```{{ exec }}
-
-如果输出结果如下，则表明该Agent处于运行状态
-
+kubectl apply -f https://storage.googleapis.com/shifu-demo-bucket/shifu-hikvision-deploy.yaml
 ```
-controlplane $ kubectl get pods -n shifu-agent -w
-NAME                              READY   STATUS    RESTARTS   AGE
-shifu-deployer-5db84bc9b7-w5rps   1/1     Running   0          14s
-```
+
+此命令将指示 Kubernetes 创建在 `shifu-hikvision-deploy.yaml` 文件中定义的资源，在您的集群中设置 DeviceShifu。
