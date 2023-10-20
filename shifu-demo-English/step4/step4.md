@@ -1,30 +1,3 @@
-👉Now go back to Shifu Cloud, select 📸**Hikvision** from the Device Template Store.
-
-![choose hikvision](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/template-en.jpg)
-
-(❗️Note that these informations must be identical, you shouldn't fill in a random information❗️You can click the information itself to copy it and then paste it in Shifu Cloud)
-
-👉Here we fill `device name`{{}} with `hikvision`{{ copy }}, `device model`{{}} with `Model`{{ copy }}
-
-![input device basic info](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/information1-en.jpg)
-
-👉Now fill in the information of the camera.
-   
-- Device IP address: `bj-hikcamera-01.saifai.cn:41554/ `{{ copy }}
-
-- Username: `guest`{{ copy }}
-
-- Password: `HelloShifu`{{ copy }}
-
-![input password](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/information2-en.jpg)
-
-👉Click`Go ahead and add APIs`{{}} 
-
-![ready](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/goahead-en.jpg)
-👉Click`Integrate device`{{}} 
-
-![interface Device](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/integrate-en.jpg)
-
 👉Check the deployment status of this camera.(The device will be deployed to this cluster in less than 1 minute).
 
 ```bash
