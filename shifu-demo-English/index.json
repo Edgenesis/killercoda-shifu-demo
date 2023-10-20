@@ -19,8 +19,7 @@
       },
       {
         "title": "Prep--Install--Config--✅Connect--Check",
-        "text": "step4/step4.md",
-        "verify": "step4/verify.sh"
+        "text": "step4/step4.md"
       },
       {
         "title": "Prep--Install--Config--Connect--✅Check",
