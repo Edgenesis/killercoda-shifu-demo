@@ -1,6 +1,5 @@
 
 你好
-In order to use Shifu, you'll first need a **Kubernetes cluster** running on your computer.
 
 In order to use Shifu, you'll first need a **Kubernetes cluster** running on your computer.
 
