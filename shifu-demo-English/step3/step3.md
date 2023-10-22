@@ -8,7 +8,7 @@ kubectl apply -f https://storage.googleapis.com/shifu-demo-bucket/shifu-hikvisio
 
 This command will download a YAML file from the specified URL, and based on the configurations within that file, it will deploy DeviceShifu in your Kubernetes cluster.
 
-👉Check the deployment status of DeviceShifu.
+👉Check the deployment status of DeviceShifu.(The device will be deployed to this cluster in less than 1 minute).
 
 ```bash
 kubectl get pods -n deviceshifu
