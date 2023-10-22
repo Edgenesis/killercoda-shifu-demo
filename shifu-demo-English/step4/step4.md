@@ -1,25 +1,19 @@
-👉Check the deployment status of this camera.(The device will be deployed to this cluster in less than 1 minute).
+👉Expose deviceShifu's services so that we can see the camera feed in the browser.
 
 ```bash
-kubectl get pods -n deviceshifu
+kubectl port-forward svc/deviceshifu-hikvision-service -n deviceshifu 3000:80 --address=0.0.0.0
 ```{{ exec }}
 
+👉Now open 📷[stream]({{TRAFFIC_HOST1_3000}}/stream)📷 to see the current monitoring video！
+
+✔️Now you can see real video scenes monitored by street camera in Beijing, China.
+
+——————————————————————————————————————————————————————————————————————————————————
 <br/>
 
-✔️When `READY` is `2/2`, `STATUS` is `Running`, the deployment is successfull.
+💗Your Feedback Matters
 
 
-```text
-controlplane $ kubectl get pods -n deviceshifu
-NAME                                             READY   STATUS    RESTARTS   AGE
-deviceshifu-hikvision-deployment-58b64d49d7-gxvnj   2/2     Running   0          21s
-```
+We value your feedback on this demo or Shifu very much and would love to hear about your opinion. Share your thoughts at [#feedback(@slack)](https://shifuproj.slack.com/archives/C04N5AJJL8Y) or simply have a chat with our founder [@Yongli(@slack)](https://shifuproj.slack.com/archives/D04MMBWKUUR) and you will be eligible for a 💵$100 credit for Shifu. Plus, you'll receive an extra 💵$20 bonus credit for referring new users!
 
-Use the following command to enable killer_coda:
-```bash
-kubectl set env deployment/deviceshifu-hikvision-deployment camera-python KILLER_CODA=true
-```
-————————————————————————————————————————————————————————————————————————————————
-<br/>
 
-🔔If you have any problem during the demo, please ask our developer 👷🏽[@Steven Lee(@slack)](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback(@slack)](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.
