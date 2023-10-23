@@ -11,12 +11,5 @@ kubectl port-forward svc/deviceshifu-hikvision-service -n deviceshifu 3000:80 --
 
 You can also open  [stream]({{TRAFFIC_HOST1_3000}}/stream) to view the real-time video stream (please note that we do not recommend doing this as the platform's machine configuration may not support smooth video streaming).
 
-——————————————————————————————————————————————————————————————————————————————————
-<br/>
-
-💗Your Feedback Matters
-
-
-We value your feedback on this demo or Shifu very much and would love to hear about your opinion. Share your thoughts at [#feedback(@slack)](https://shifuproj.slack.com/archives/C04N5AJJL8Y) or simply have a chat with our founder [@Yongli(@slack)](https://shifuproj.slack.com/archives/D04MMBWKUUR) and you will be eligible for a 💵$100 credit for Shifu. Plus, you'll receive an extra 💵$20 bonus credit for referring new users!
 
 
