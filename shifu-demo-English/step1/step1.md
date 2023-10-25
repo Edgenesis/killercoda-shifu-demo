@@ -5,7 +5,7 @@ We've configured a Kubernetes cluster for you to try out directly.
 
 ————————————————————————————————————————————————————————————————————————————————
 <br/>
-👉Click `kubectl get nodes`{{execute}} to check the nodes in the Kuberenetes cluster.、
+👉Click `kubectl get nodes`{{execute}} to check the nodes in the Kuberenetes cluster.
 <br/>
 
 ✔️The cluster should contain two nodes, `node`-`controlplane` and `node01`. Those nodes' `status` should be `Ready`.
