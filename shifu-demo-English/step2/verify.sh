@@ -4,10 +4,10 @@ set -e
 NAMESPACE="shifu-crd-system"
 DEPLOYMENT_NAME="shifu-crd-controller-manager"
 
-# 获取Deployment的可用Pod数量
+# Get the available pods of the Deployment
 AVAILABLE_REPLICAS=$(kubectl get deployment $DEPLOYMENT_NAME -n $NAMESPACE -o=jsonpath='{.status.availableReplicas}')
 
-# 获取Deployment期望的Pod数量
+# Get the desired number of Pods for the Deployment
 DESIRED_REPLICAS=$(kubectl get deployment $DEPLOYMENT_NAME -n $NAMESPACE -o=jsonpath='{.status.replicas}')
 
 if [ "$AVAILABLE_REPLICAS" == "$DESIRED_REPLICAS" ]; then
