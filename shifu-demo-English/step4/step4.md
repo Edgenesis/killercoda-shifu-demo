@@ -1,5 +1,5 @@
 ## Step 4: Viewing the Video Stream
-👉Expose deviceShifu's services so that we can see the camera feed in the browser.
+👉Expose deviceShifu's service so that we can see the camera feed in the browser.
 
 ```bash
 kubectl port-forward svc/deviceshifu-hikvision-service -n deviceshifu 3000:80 --address=0.0.0.0
