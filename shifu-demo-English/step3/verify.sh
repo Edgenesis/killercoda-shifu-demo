@@ -4,10 +4,10 @@ set -e
 NAMESPACE="deviceshifu"
 DEPLOYMENT_NAME="deviceshifu-hikvision-deployment"
 
-# 获取Deployment的可用Pod数量
+# Get the number of available pods for the Deployment
 AVAILABLE_REPLICAS=$(kubectl get deployment $DEPLOYMENT_NAME -n $NAMESPACE -o=jsonpath='{.status.availableReplicas}')
 
-# 获取Deployment期望的Pod数量
+# Get the desired number of pods for the Deployment
 DESIRED_REPLICAS=$(kubectl get deployment $DEPLOYMENT_NAME -n $NAMESPACE -o=jsonpath='{.status.replicas}')
 
 if [ "$AVAILABLE_REPLICAS" == "$DESIRED_REPLICAS" ]; then
