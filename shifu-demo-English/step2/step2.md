@@ -1,7 +1,9 @@
+## Step 2: Install and verify the status of Shifu
+
 👉Install ***Shifu*** into the Kubernetes cluster with a click.
 
 ```bash
-kubectl apply -f https://raw.githubusercontent.com/Edgenesis/shifu/v0.12.0/pkg/k8s/crd/install/shifu_install.yml
+kubectl apply -f https://raw.githubusercontent.com/Edgenesis/shifu/v0.29.0/pkg/k8s/crd/install/shifu_install.yml
 ```{{ exec }}
 
 👉Check the status of Shifu. (It may take up to ⏰20 seconds⏰ to install.)

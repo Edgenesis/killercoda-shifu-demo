@@ -1,5 +1,5 @@
-
-In order to use Shifu Cloud, you'll first need a **Kubernetes cluster** running on your computer.
+## Step 1: Configure and verify your Kubernetes cluster
+In order to use Shifu, you'll first need a **Kubernetes cluster** running on your computer.
 
 We've configured a Kubernetes cluster for you to try out directly.
 

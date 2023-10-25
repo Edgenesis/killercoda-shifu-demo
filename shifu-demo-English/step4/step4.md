@@ -1,52 +1,15 @@
-👉Now go back to Shifu Cloud, select 📸**Hikvision** from the Device Template Store.
-
-![choose hikvision](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/template-en.jpg)
-
-(❗️Note that these informations must be identical, you shouldn't fill in a random information❗️You can click the information itself to copy it and then paste it in Shifu Cloud)
-
-👉Here we fill `device name`{{}} with `hikvision`{{ copy }}, `device model`{{}} with `Model`{{ copy }}
-
-![input device basic info](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/information1-en.jpg)
-
-👉Now fill in the information of the camera.
-   
-- Device IP address: `bj-hikcamera-01.saifai.cn:41554/ `{{ copy }}
-
-- Username: `guest`{{ copy }}
-
-- Password: `HelloShifu`{{ copy }}
-
-![input password](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/information2-en.jpg)
-
-👉Click`Go ahead and add APIs`{{}} 
-
-![ready](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/goahead-en.jpg)
-👉Click`Integrate device`{{}} 
-
-![interface Device](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/integrate-en.jpg)
-
-👉Check the deployment status of this camera.(The device will be deployed to this cluster in less than 1 minute).
+## Step 4: Viewing the Video Stream
+👉Expose deviceShifu's service so that we can see the camera feed in the browser.
 
 ```bash
-kubectl get pods -n deviceshifu
+kubectl port-forward svc/deviceshifu-hikvision-service -n deviceshifu 3000:80 --address=0.0.0.0
 ```{{ exec }}
 
-<br/>
+👉Now open 📷[capture]({{TRAFFIC_HOST1_3000}}/capture)📷 to see the current monitoring photos！
 
-✔️When `READY` is `2/2`, `STATUS` is `Running`, the deployment is successfull.
+✔️Now you can capture a live moment from a street-facing camera in Beijing, China.
+
+You can also open  [stream]({{TRAFFIC_HOST1_3000}}/stream) to view the real-time video stream (please note that we do not recommend doing this as the platform's machine configuration may not support smooth video streaming).
 
 
-```text
-controlplane $ kubectl get pods -n deviceshifu
-NAME                                             READY   STATUS    RESTARTS   AGE
-deviceshifu-hikvision-deployment-58b64d49d7-gxvnj   2/2     Running   0          21s
-```
 
-Use the following command to enable killer_coda:
-```bash
-kubectl set env deployment/deviceshifu-hikvision-deployment camera-python KILLER_CODA=true
-```
-————————————————————————————————————————————————————————————————————————————————
-<br/>
-
-🔔If you have any problem during the demo, please ask our developer 👷🏽[@Steven Lee(@slack)](https://shifuproj.slack.com/archives/D04MFP86D4J) for help or write down your problem in [#feedback(@slack)](https://shifuproj.slack.com/archives/C04N5AJJL8Y), we will help you out immediately.

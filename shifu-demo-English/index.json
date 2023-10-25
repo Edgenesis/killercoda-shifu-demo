@@ -1,5 +1,5 @@
 {
-  "title": "Shifu Cloud Camera Demo(en)",
+  "title": "Shifu Camera Demo",
   "description": "Connect to a real camera using Shifu. View the current camera feed.",
   "details": {
     "steps": [
@@ -19,12 +19,7 @@
       },
       {
         "title": "Prep--Install--Config--✅Connect--Check",
-        "text": "step4/step4.md",
-        "verify": "step4/verify.sh"
-      },
-      {
-        "title": "Prep--Install--Config--Connect--✅Check",
-        "text": "step5/step5.md"
+        "text": "step4/step4.md"
       }
     ],
     "intro": {
