@@ -1,6 +1,6 @@
 {
-  "title": "Shifu Camera Demo",
-  "description": "Connect to a real camera using Shifu. View the current camera feed.",
+  "title": "Shifu Cloud Camera Demo",
+  "description": "Connect to a real camera using Shifu & Shifu Cloud. View the current camera feed.",
   "details": {
     "steps": [
       {
