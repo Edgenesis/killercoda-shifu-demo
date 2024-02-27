@@ -1,8 +1,19 @@
-# 接摄像头？只要3分钟!!!
+# Three minutes to connect to a camera
 
-## Shifu 
-[Shifu](https://shifu.run) 一名来源于中文"师父"。师者，所以传道受业解惑也。作为下一代开源物联网开发框架，Shifu 实现了对物联网设备的高度控制，并成功以API的形式将这样的能力传授给开发者。这样一来，传统的物联网应用开发就被简化为简单的网络开发，从而大大提高了物联网应用开发的效率、质量和复用性。
-## Shifu Cloud
-[Shifu Cloud](https://shifu.cloud) 基于 Shifu 的平台，能够帮助您更为轻松便捷的使用 Shifu。
+————————————————————————————————————————————————————————————————————————————————
+<br/>
 
-想要了解更多，请前往我们的官网 [https://edgenesis.com/](https://edgenesis.com/)
+In this demo, we have prepared for you **a live, street-facing camera capturing the landscape of Beijing, China**📸🌇
+
+You can follow the steps to try and connect the camera by yourself very easily.
+<br/>
+
+**Start NOW!!**
+<br/>
+Don't refresh the website during the demo, or you'll lose all your previous data.
+<br/>
+
+——————————————————————————————————————————————————————————————————————————————————
+<br/>
+
+🔔If you have any problem during the demo, please contact us at [info@edgenesis.com](mailto:info@edgenesis.com), we will help you out immediately.

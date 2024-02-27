@@ -1,28 +1,26 @@
+## Step 3: Deploy DeviceShifu
 
-## 点击链接前往 Shifu Cloud 的官网
-
-[https://shifu.cloud](https://shifu.cloud)
-
-注册登陆 Shifu Cloud
-
-![Shifu Cloud Login](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/ShifuCloudLogin.png)
-
-点击 工作区 - Agent管理 - 添加Agent - 输入任意Agent名称 - 点击提交 
-
-![Add Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/AddAgent.png)
-
-点击复制命令，并在该命令行下执行该命令以部署Shifu Cloud的Agent。
-![Deploy Agent](https://raw.githubusercontent.com/Edgenesis/killercoda-shifu-demo/main/images/DeployAgent.png)
-
-查看 Agent 的运行状况
+👉Deploy ***DeviceShifu*** into the Kubernetes cluster with a click.
 ```bash
-kubectl get pods -n shifu-agent
+kubectl apply -f https://storage.googleapis.com/shifu-demo-bucket/shifu-hikvision-deploy.yaml
 ```{{ exec }}
 
-如果输出结果如下，则表明该Agent处于运行状态
 
+This command will download a YAML file from the specified URL, and based on the configurations within that file, it will deploy DeviceShifu in your Kubernetes cluster.
+
+👉Check the deployment status of DeviceShifu.(The device will be deployed to this cluster in less than 1 minute).
+
+```bash
+kubectl get pods -n deviceshifu
+```{{ exec }}
+
+<br/>
+
+✔️When `READY` is `2/2` and `STATUS` is `Running`, the deployment is successfull.
+```text
+controlplane $ kubectl get pods -n deviceshifu
+NAME                                               READY   STATUS    RESTARTS   AGE
+deviceshifu-hikvision-deployment-d86c5bf46-m95p4   2/2     Running   0          24s
 ```
-controlplane $ kubectl get pods -n shifu-agent -w
-NAME                              READY   STATUS    RESTARTS   AGE
-shifu-deployer-5db84bc9b7-w5rps   1/1     Running   0          14s
-```
+
+🔔If you have any problem during the demo, please contact us at [info@edgenesis.com](mailto:info@edgenesis.com), we will help you out immediately.

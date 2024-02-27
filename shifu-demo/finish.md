@@ -1,5 +1,3 @@
-## 非常感谢您体验完 Shifu 的摄像头Demo
+# 💗**Your Feedback Matters**💗
 
-想要了解更多可以，您可以前往[Shifu 官网](https://shifu.run)以及[Shifu Cloud官网](https://shifu.cloud)。
-
-感谢您的支持与配合
+We value your feedback on this demo or Shifu very much and would love to hear about your opinion. Share your thoughts at [#feedback(@slack)](https://shifuproj.slack.com/archives/C04N5AJJL8Y) or simply have a chat with our founder [@Yongli(@slack)](https://shifuproj.slack.com/archives/D04MMBWKUUR) and you will be eligible for a 💵$100 credit for Shifu. Plus, you'll receive an extra 💵$20 bonus credit for referring new users!

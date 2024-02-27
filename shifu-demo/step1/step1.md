@@ -1,11 +1,22 @@
-由于该平台已经为您配置好了 Kubernetes 集群，所以您可以直接使用。
+## Step 1: Configure and verify your Kubernetes cluster
+In order to use Shifu, you'll first need a **Kubernetes cluster** running on your computer.
 
-您可以通过该命令查看当前 Kuberenetes 集群的节点状态 `kubectl get nodes`{{execute}}
+We've configured a Kubernetes cluster for you to try out directly.
 
-我们可以看到当前 Kubernetes 集群中包含一个节点 controlplane 其状态为Ready
+————————————————————————————————————————————————————————————————————————————————
+<br/>
+👉Click `kubectl get nodes`{{execute}} to check the nodes in the Kuberenetes cluster.
+<br/>
+
+✔️The cluster should contain two nodes, `node`-`controlplane` and `node01`. Those nodes' `status` should be `Ready`.
 ```
 controlplane $ kubectl get nodes
 NAME           STATUS   ROLES           AGE     VERSION
 controlplane   Ready    control-plane   2d16h   v1.26.0
 node01         Ready    <none>          2d16h   v1.26.0
 ```
+<br/>
+————————————————————————————————————————————————————————————————————————————————
+<br/>
+
+🔔If you have any problem during the demo, please contact us at [info@edgenesis.com](mailto:info@edgenesis.com), we will help you out immediately.
