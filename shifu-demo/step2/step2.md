@@ -1,4 +1,4 @@
-## Step 2:  Install Shifu and Verify
+## Step 2: Install Shifu and Verify
 
 ![step2](../../images/shifu/step2.png)
 
