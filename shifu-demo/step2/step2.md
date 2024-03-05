@@ -3,12 +3,12 @@
 ![step2](../../images/shifu/step2.png)
 
 **Overall Architecture Diagram**
-![Architecture](../images/shifu/overall_architecture.png)
+![Architecture](../../images/shifu/overall_architecture.png)
 
 👉Click to Install ***Shifu***.
 
 ```bash
-kubectl apply -f https://raw.githubusercontent.com/Edgenesis/shifu/v0.29.0/pkg/k8s/crd/install/shifu_install.yml
+kubectl apply -f https://raw.githubusercontent.com/Edgenesis/shifu/v0.39.0/pkg/k8s/crd/install/shifu_install.yml
 ```{{ exec }}
 
 👉Click to Verify Installation Status. (It may take up to ⏰20 seconds⏰ to install.)

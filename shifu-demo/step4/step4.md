@@ -3,7 +3,7 @@
 ![step4](../../images/shifu/step4.png)
 
 **Overall Architecture Diagram**
-![Architecture](../images/shifu/overall_architecture.png)
+![Architecture](../../images/shifu/overall_architecture.png)
 
 👉Click to Expose the deviceShifu Service.
 

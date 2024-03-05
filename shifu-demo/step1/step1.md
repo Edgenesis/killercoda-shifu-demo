@@ -4,7 +4,7 @@ You'll need a Kubernetes cluster running to use Shifu. For your convenience, we'
 ![step1](../../images/shifu/step1.png)
 
 **Overall Architecture Diagram**
-![Architecture](../images/shifu/overall_architecture.png)
+![Architecture](../../images/shifu/overall_architecture.png)
 
 
 👉Click to ensure your cluster is ready: `kubectl get nodes`{{execute}}

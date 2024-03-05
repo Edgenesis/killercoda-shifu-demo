@@ -3,11 +3,11 @@
 ![step3](../../images/shifu/step3.png)
 
 **Overall Architecture Diagram**
-![Architecture](../images/shifu/overall_architecture.png)
+![Architecture](../../images/shifu/overall_architecture.png)
 
 👉Click to Deploy ***deviceShifu***.
 ```bash
-kubectl apply -f https://storage.googleapis.com/shifu-demo-bucket/shifu-hikvision-deploy.yaml
+kubectl apply -f https://edgenesis.blob.core.windows.net/shifu-demo/shifu-hikvision-deploy.yaml
 ```{{ exec }}
 
 
