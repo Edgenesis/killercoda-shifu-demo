@@ -1,14 +1,20 @@
-## Step 3: Deploy DeviceShifu
+## Step 3: Deploy deviceShifu
 
-👉Deploy ***DeviceShifu*** into the Kubernetes cluster with a click.
+![step3](../../images/shifu/step3.png)
+
+**Overall Architecture Diagram**
+![Architecture](../../images/shifu/overall_architecture.png)
+
+
+
+👉Click to Deploy ***deviceShifu***.
 ```bash
-kubectl apply -f https://storage.googleapis.com/shifu-demo-bucket/shifu-hikvision-deploy.yaml
+kubectl apply -f https://edgenesis.blob.core.windows.net/shifu-demo/shifu-hikvision-deploy.yaml
 ```{{ exec }}
 
+* **Explanation:** This command deploys deviceShifu to your Kubernetes cluster using the configuration defined in the provided YAML file.
 
-This command will download a YAML file from the specified URL, and based on the configurations within that file, it will deploy DeviceShifu in your Kubernetes cluster.
-
-👉Check the deployment status of DeviceShifu.(The device will be deployed to this cluster in less than 1 minute).
+👉Click to Check Deployment Status.(Allow approximately 1 minute for deployment to complete)
 
 ```bash
 kubectl get pods -n deviceshifu
@@ -16,11 +22,11 @@ kubectl get pods -n deviceshifu
 
 <br/>
 
-✔️When `READY` is `2/2` and `STATUS` is `Running`, the deployment is successfull.
+✔️When `READY` is `2/2` and `STATUS` is `Running`, deployment is done.
 ```text
 controlplane $ kubectl get pods -n deviceshifu
 NAME                                               READY   STATUS    RESTARTS   AGE
 deviceshifu-hikvision-deployment-d86c5bf46-m95p4   2/2     Running   0          24s
 ```
 
-🔔If you have any problem during the demo, please contact us at [info@edgenesis.com](mailto:info@edgenesis.com), we will help you out immediately.
+🔔Need help? Contact us at [info@edgenesis.com](mailto:info@edgenesis.com). We will help you out immediately.

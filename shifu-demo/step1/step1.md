@@ -1,22 +1,24 @@
-## Step 1: Configure and verify your Kubernetes cluster
-In order to use Shifu, you'll first need a **Kubernetes cluster** running on your computer.
+## Step 1: Configure and Verify Your Kubernetes Cluster
+You'll need a Kubernetes cluster running to use Shifu. For your convenience, we've already configured a cluster for you to try.
 
-We've configured a Kubernetes cluster for you to try out directly.
+![step1](../../images/shifu/step1.png)
 
-————————————————————————————————————————————————————————————————————————————————
-<br/>
-👉Click `kubectl get nodes`{{execute}} to check the nodes in the Kuberenetes cluster.
-<br/>
+**Overall Architecture Diagram**
+![Architecture](../../images/shifu/overall_architecture.png)
 
-✔️The cluster should contain two nodes, `node`-`controlplane` and `node01`. Those nodes' `status` should be `Ready`.
+
+
+👉Click to ensure your cluster is ready: `kubectl get nodes`{{execute}}
+
+
+✔️The cluster should contain two nodes, `controlplane` and `node01`. Those nodes' `status` should be `Ready`.
 ```
 controlplane $ kubectl get nodes
-NAME           STATUS   ROLES           AGE     VERSION
-controlplane   Ready    control-plane   2d16h   v1.26.0
-node01         Ready    <none>          2d16h   v1.26.0
+NAME           STATUS   ROLES           AGE   VERSION
+controlplane   Ready    control-plane   41h   v1.29.0
+node01         Ready    <none>          41h   v1.29.0
 ```
-<br/>
-————————————————————————————————————————————————————————————————————————————————
-<br/>
 
-🔔If you have any problem during the demo, please contact us at [info@edgenesis.com](mailto:info@edgenesis.com), we will help you out immediately.
+
+
+🔔Need help? Contact us at [info@edgenesis.com](mailto:info@edgenesis.com). We will help you out immediately.
