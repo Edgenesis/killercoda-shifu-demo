@@ -28,7 +28,5 @@ NAME                                           READY   STATUS    RESTARTS   AGE
 shifu-crd-controller-manager-98bb47fc9-828dl   2/2     Running   0          22s
 ```
 
-————————————————————————————————————————————————————————————————————————————————
-<br/>
 
 🔔Need help? Contact us at [info@edgenesis.com](mailto:info@edgenesis.com). We will help you out immediately.
