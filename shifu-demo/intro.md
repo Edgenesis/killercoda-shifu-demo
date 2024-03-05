@@ -1,6 +1,5 @@
 # Connect an IP camera to your Kubernetes cluster in under 3 minutes!
 
-————————————————————————————————————————————————————————————————————————————————
 <br/>
 In this demo, you'll connect a **live, office-facing camera** to your Kubernetes cluster.
 <br/>

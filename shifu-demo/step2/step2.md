@@ -2,7 +2,8 @@
 
 ![step2](../../images/shifu/step2.png)
 
-[Overall Architecture](../../images/shifu/overall_architecture.png)
+**Overall Architecture Diagram**
+![Architecture](../images/shifu/overall_architecture.png)
 
 👉Click to Install ***Shifu***.
 

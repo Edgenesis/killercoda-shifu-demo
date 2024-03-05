@@ -2,7 +2,8 @@
 
 ![step3](../../images/shifu/step3.png)
 
-[Overall Architecture](../../images/shifu/overall_architecture.png)
+**Overall Architecture Diagram**
+![Architecture](../images/shifu/overall_architecture.png)
 
 👉Click to Deploy ***deviceShifu***.
 ```bash

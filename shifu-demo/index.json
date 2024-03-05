@@ -1,6 +1,6 @@
 {
   "title": "Shifu Camera Demo",
-  "description": "Connect to a real camera using Shifu. View the current camera feed.",
+  "description": "Connect an IP camera to your Kubernetes cluster in under 3 minutes!",
   "details": {
     "steps": [
       {
