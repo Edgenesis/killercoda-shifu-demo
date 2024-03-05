@@ -5,6 +5,8 @@
 **Overall Architecture Diagram**
 ![Architecture](../../images/shifu/overall_architecture.png)
 
+
+
 👉Click to Expose the deviceShifu Service.
 
 ```bash

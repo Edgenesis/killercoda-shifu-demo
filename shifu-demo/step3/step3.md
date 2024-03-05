@@ -5,11 +5,12 @@
 **Overall Architecture Diagram**
 ![Architecture](../../images/shifu/overall_architecture.png)
 
+
+
 👉Click to Deploy ***deviceShifu***.
 ```bash
 kubectl apply -f https://edgenesis.blob.core.windows.net/shifu-demo/shifu-hikvision-deploy.yaml
 ```{{ exec }}
-
 
 * **Explanation:** This command deploys deviceShifu to your Kubernetes cluster using the configuration defined in the provided YAML file.
 

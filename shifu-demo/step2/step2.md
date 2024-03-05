@@ -5,6 +5,8 @@
 **Overall Architecture Diagram**
 ![Architecture](../../images/shifu/overall_architecture.png)
 
+
+
 👉Click to Install ***Shifu***.
 
 ```bash
@@ -18,7 +20,6 @@ kubectl get pods -n shifu-crd-system
 ```{{ exec }}
 
 
-<br/>
 
 ✔️When `READY` is `2/2` and `STATUS` is `Running`, Shifu is installed.
 
