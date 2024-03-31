@@ -2,9 +2,9 @@
 
 In this demo, you'll connect a **live, office-facing camera** to your Kubernetes cluster using [Shifu Cloud](https://edgenesis.ai/products/shifuCloud) in under 3 minutes.
 
-**Overall Architecture Diagram**
+**Overview Architecture Diagram**
 
-![Architecture](../images/shifu/overall_architecture.png)
+![Architecture](../images/shifu-cloud-camera-demo/overview_architecture.png)
 
 **Start NOW!!**
 
