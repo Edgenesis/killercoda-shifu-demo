@@ -1,5 +1,5 @@
 ## Step 1: Configure and Verify Your Kubernetes Cluster
-You'll need a Kubernetes cluster running to use Shifu. For your convenience, we've already configured a cluster for you to try.
+You'll need a running Kubernetes cluster to use Shifu. In this demo, we'll use the pre-configured Kubernetes cluster from KillerCoda.
 
 ![step1](../../images/shifu/step1.png)
 
