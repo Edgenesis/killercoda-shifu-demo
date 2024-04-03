@@ -1,25 +1,29 @@
 {
   "title": "Shifu Cloud Camera Demo",
-  "description": "Connect to a real camera using Shifu & Shifu Cloud. View the current camera feed.",
+  "description": "Seamless IP Camera Management on Kubernetes with Shifu Cloud",
   "details": {
     "steps": [
       {
-        "title": "✅Prep--Install--Config--Connect--Check",
+        "title": "✅Prep--Install--Config--Connect--CleanUp--Check",
         "text": "step1/step1.md"
       },
       {
-        "title": "Prep--✅Install--Config--Connect--Check",
+        "title": "Prep--✅Install--Config--Connect--CleanUp--Check",
         "text": "step2/step2.md",
         "verify": "step2/verify.sh"
       },
       {
-        "title": "Prep--Install--✅Config--Connect--Check",
+        "title": "Prep--Install--✅Config--Connect--CleanUp--Check",
         "text": "step3/step3.md",
         "verify": "step3/verify.sh"
       },
       {
-        "title": "Prep--Install--Config--✅Connect--Check",
+        "title": "Prep--Install--Config--✅Connect--CleanUp--Check",
         "text": "step4/step4.md"
+      },
+      {
+        "title": "Prep--Install--Config--Connect--✅CleanUp--Check",
+        "text": "step5/step5.md"
       }
     ],
     "intro": {

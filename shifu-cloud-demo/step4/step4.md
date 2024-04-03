@@ -1,14 +1,25 @@
-## Step 4: Viewing the Video Stream
-👉Expose deviceShifu's service so that we can see the camera feed in the browser.
+# Step 4: Access the Live Video Stream
+
+![step4](../../images/shifu/step4.png)
+
+**Overview Architecture Diagram**
+![Architecture](../../images/shifu-cloud-camera-demo/overview_architecture.png)
+
+
+👉Click to Expose the deviceShifu Service.
 
 ```bash
 kubectl port-forward svc/deviceshifu-hikvision-service -n deviceshifu 3000:80 --address=0.0.0.0
 ```{{ exec }}
 
-👉Now open 📷[capture]({{TRAFFIC_HOST1_3000}}/capture)📷 to see the current monitoring photos！
+## To view a live capture
 
-✔️Now you can capture a live moment from a street-facing camera in Beijing, China.
+👉Click here to see a live photo from the Beijing camera: 📷[capture]({{TRAFFIC_HOST1_3000}}/capture)📷
 
-You can also open  [stream]({{TRAFFIC_HOST1_3000}}/stream) to view the real-time video stream (please note that we do not recommend doing this as the platform's machine configuration may not support smooth video streaming).
+## To view a live video stream
 
-🔔If you have any problem during the demo, please contact us at [info@edgenesis.com](mailto:info@edgenesis.com), we will help you out immediately.
+👉Click here the real-time video stream from the Beijing camera: 📹[stream]({{TRAFFIC_HOST1_3000}}/stream)📹
+
+**🎉 You're now viewing a live feed from our office in Beijing, China! 🎉**
+
+🔔Need help? Contact us at [info@edgenesis.com](mailto:info@edgenesis.com). We will help you out immediately.

@@ -1,18 +1,15 @@
-# Three minutes to connect to a camera
+# Seamless IP Camera Management on Kubernetes with Shifu Cloud
 
-————————————————————————————————————————————————————————————————————————————————
-<br/>
+In this demo, you'll connect a **live, office-facing camera** to your Kubernetes cluster using [Shifu Cloud](https://edgenesis.ai/products/shifuCloud) in under 3 minutes.
 
-In this demo, we have prepared for you **a live, street-facing camera capturing the landscape of Beijing, China**📸🌇
+**Overview Architecture Diagram**
 
-You can follow the steps to try and connect the camera by yourself very easily.
-<br/>
+![Architecture](../images/shifu-cloud-camera-demo/overview_architecture.png)
 
 **Start NOW!!**
-<br/>
-Don't refresh the website during the demo, or you'll lose all your previous data.
-<br/>
 
-——————————————————————————————————————————————————————————————————————————————————
-<br/>
-🔔If you have any problem during the demo, please contact us at [info@edgenesis.com](mailto:info@edgenesis.com), we will help you out immediately.
+Don't refresh the website during the demo, or you'll lose all your previous data.
+
+🔔Need help? Contact us at [info@edgenesis.com](mailto:info@edgenesis.com). We will help you out immediately.
+
+🔔[Shifu Cloud](https://edgenesis.ai/products/shifuCloud) is currently in Beta.
