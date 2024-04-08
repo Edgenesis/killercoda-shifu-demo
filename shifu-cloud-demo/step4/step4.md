@@ -14,11 +14,11 @@ kubectl port-forward svc/deviceshifu-hikvision-service -n deviceshifu 3000:80 --
 
 ## To view a live capture
 
-👉Click here to see a live photo from the Beijing camera: 📷[capture]({{TRAFFIC_HOST1_3000}}/capture)📷
+👉Click 📷[capture]({{TRAFFIC_HOST1_3000}}/capture)📷 to see a live photo from the Beijing camera
 
 ## To view a live video stream
 
-👉Click here the real-time video stream from the Beijing camera: 📹[stream]({{TRAFFIC_HOST1_3000}}/stream)📹
+👉Click 📹[stream]({{TRAFFIC_HOST1_3000}}/stream)📹 to see a real-time video stream from the Beijing camera
 
 **🎉 You're now viewing a live feed from our office in Beijing, China! 🎉**
 

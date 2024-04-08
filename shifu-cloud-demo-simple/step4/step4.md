@@ -1,10 +1,9 @@
-## Step 4: Access the Live Video Stream
+# Step 4: Access the Live Video Stream
 
 ![step4](../../images/shifu/step4.png)
 
-**Overall Architecture Diagram**
-![Architecture](../../images/shifu/overall_architecture.png)
-
+**Overview Architecture Diagram**
+![Architecture](../../images/shifu-cloud-demo-simple/overview.png)
 
 
 👉Click to Expose the deviceShifu Service.
@@ -21,6 +20,6 @@ kubectl port-forward svc/deviceshifu-hikvision-service -n deviceshifu 3000:80 --
 
 👉Click 📹[stream]({{TRAFFIC_HOST1_3000}}/stream)📹 to see a real-time video stream from the Beijing camera
 
-**🎉 You're now viewing a live feed from Beijing, China! 🎉**
+**🎉 You're now viewing a live feed from our office in Beijing, China! 🎉**
 
 🔔Need help? Contact us at [info@edgenesis.com](mailto:info@edgenesis.com). We will help you out immediately.
