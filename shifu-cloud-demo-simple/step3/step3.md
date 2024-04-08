@@ -8,21 +8,38 @@
 ## Deploy your devices using [***Shifu Cloud***](https://shifucloud.testing.shifu.dev/).
 
 
+### Deploy your Device Credentials
+
+- Click to create a Kubernetes Secret for your device.
+    ```bash
+    kubectl create secret -n deviceshifu generic hikvision-hikvision-secret  --from-literal=IP_CAMERA_PASSWORD=HelloShifu
+    ```{{ exec }}
+
+- Click to verify the secret.
+    ```bash
+    kubectl get secret -n deviceshifu hikvision-hikvision-secret
+    ```{{ exec }}
+
+✔️The secret should be created successfully.
+
+```bash
+controlplane $ kubectl get secret -n deviceshifu hikvision-hikvision-secret
+NAME                         TYPE     DATA   AGE
+hikvision-hikvision-secret   Opaque   1      4s
+```
+
 ### Login to Shifu Cloud
 
 - Use the following Credentials to login to [***Shifu Cloud***](https://shifucloud.testing.shifu.dev/):
   - Username: `demo@edgenesis.com`
   - Password: `shifuclouddemo`
 
-- Click to create a Kubernetes Secret for your device.
-```bash
-kubectl create secret -n deviceshifu generic hikvision-hikvision-secret  --from-literal=IP_CAMERA_PASSWORD=HelloShifu
-```{{ exec }}
+### Deploy Your Device
 
-- Click the `hikvision` device in your workspace.
+- Click the "**hikvision**" device in your workspace.
 ![hikvision](../../images/shifu-cloud-demo-simple/select-device.png)
 
-- **Deploy Your Device:** Click `Deploy` to receive a command. Similar to the previous step, copy and execute this command in your terminal to deploy the device into your cluster.
+- Click "**Deploy**" to receive a command. Similar to the previous step, copy and execute this command in your terminal to deploy the device into your cluster.
 ![deploy](../../images/shifu-cloud-demo-simple/deploy-button.png)
 ![deploy-command](../../images/shifu-cloud-demo-simple/copy-command.png)
 
