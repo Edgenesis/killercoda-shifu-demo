@@ -5,7 +5,7 @@
 **Overview Architecture Diagram**
 ![Architecture](../../images/shifu-cloud-demo-simple/overview.png)
 
-## Deploy your devices using [***Shifu Cloud***](https://shifucloud.testing.shifu.dev/).
+## Deploy your devices using [***Shifu Cloud***](https://cloud.shifu.dev/).
 
 
 ### Deploy your Device Credentials
@@ -30,9 +30,9 @@ hikvision-hikvision-secret   Opaque   1      4s
 
 ### Login to Shifu Cloud
 
-- Use the following Credentials to login to [***Shifu Cloud***](https://shifucloud.testing.shifu.dev/):
+- Use the following Credentials to login to [***Shifu Cloud***](https://cloud.shifu.dev/):
   - Username: `demo@edgenesis.com`
-  - Password: `shifuclouddemo`
+  - Password: `ShifuCloudDemo1@#`
 
 ### Deploy Your Device
 

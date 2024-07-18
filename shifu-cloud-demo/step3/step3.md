@@ -5,7 +5,7 @@
 **Overview Architecture Diagram**
 ![Architecture](../../images/shifu-cloud-camera-demo/overview_architecture.png)
 
-## Deploy your devices using [***Shifu Cloud***](https://shifucloud.testing.shifu.dev/).
+## Deploy your devices using [***Shifu Cloud***](https://cloud.shifu.dev/).
 
 ### (New User Only) Register with Shifu Cloud
 
@@ -20,7 +20,7 @@
 
 ### Create Workspace and Device
 
-- **Create Workspace:** Log into [***Shifu Cloud***](https://shifucloud.testing.shifu.dev/) and click on "New Workspace".
+- **Create Workspace:** Log into [***Shifu Cloud***](https://cloud.shifu.dev/) and click on "New Workspace".
 ![add_workspace1](../../images/shifu-cloud-camera-demo/add_workspace1.png)
 
 - Specify a name for your workspace.
@@ -37,13 +37,13 @@
 - Enter the following configuration details (💡Tips: Click the value to copy):
   - Device Address: `bj-hikcamera-01.saifai.cn`
   - RTSP Port: `40554`
-  - HTTP Port: `40080`
+  - HTTP Port: `40081`
   - Username: `guest`
   - Password: `HelloShifu`
 
   ![add_device4](../../images/shifu-cloud-camera-demo/create_device4.png)
 
-- Before deploying your device, first create a Kubernetes Secret:
+- Before deploying your device, make sure you have created the Kubernetes Secret:
   - Scroll down and copy the command displayed at the bottom of the configuration form.
   - Paste this command into your terminal where Shifu is running.
   - Execute the command to create the secret.
